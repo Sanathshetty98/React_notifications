@@ -29,19 +29,19 @@ class notification extends React.Component {
     return (
       <div>
         <hr />
-        <button className='btn btn-info'
+        <button className='btn btn-outline-info btn-lg'
           onClick={this.createNotification('info')}>Info
         </button>
         <hr/>
-        <button className='btn btn-success'
+        <button className='btn btn-outline-success btn-lg'
           onClick={this.createNotification('success')}>Success
         </button>
         <hr/>
-        <button className='btn btn-warning'
+        <button className='btn btn-outline-warning btn-lg'
           onClick={this.createNotification('warning')}>Warning
         </button>
         <hr/>
-        <button className='btn btn-danger'
+        <button className='btn btn-outline-danger btn-lg'
           onClick={this.createNotification('error')}>Error
         </button>
         <hr />
